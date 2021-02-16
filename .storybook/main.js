@@ -19,9 +19,7 @@ module.exports = {
           if(using.loader.match(/\/css-loader/) != null) {
             using.options = {
               importLoaders: 1,
-              modules: {
-                localIdentName: '[name]__[local]--[hash:base64:5]',
-              }
+              modules: true,
             }
           }
         })
