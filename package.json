@@ -1,0 +1,22 @@
+{
+  "name": "storybook-postcss8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/konojunya/storybook-postcss8.git",
+  "author": "konojunya <junya03dance@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -s ./public -p 6007"
+  },
+  "devDependencies": {
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.2.0-alpha.28",
+    "postcss": "^8.2.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
