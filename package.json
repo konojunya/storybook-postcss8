@@ -8,6 +8,13 @@
   "scripts": {
     "storybook": "start-storybook -s ./public -p 6007"
   },
+  "browserslist": [
+    ">1% in JP",
+    "last 2 Edge versions",
+    "last 2 Android versions",
+    "last 2 iOS versions",
+    "not ie 11"
+  ],
   "devDependencies": {
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/react": "^6.2.0-alpha.28",
