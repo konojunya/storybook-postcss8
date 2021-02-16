@@ -1,3 +1,7 @@
 .wrapper {
-  background: red;
+  background: white;
+
+  &:hover {
+    background: red;
+  }
 }
